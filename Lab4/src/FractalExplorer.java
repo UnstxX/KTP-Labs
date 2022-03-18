@@ -88,7 +88,7 @@ public class FractalExplorer {
 
     //метод для запуска FractalExplorer
     public static void main(String[] args) {
-        FractalExplorer displayExplorer = new FractalExplorer(600);
+        FractalExplorer displayExplorer = new FractalExplorer(800);
         displayExplorer.createAndShowGUI();
         displayExplorer.drawFractal();
     }
