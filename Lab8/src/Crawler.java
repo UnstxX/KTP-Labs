@@ -20,7 +20,7 @@ public class Crawler {
     }
 
     public static void main(String[] args){
-        Crawler crawler = new Crawler("https://krsk-sbit.ru/",2 ,10);   // Максимальная глубина = 2, количество потоков = 10
+        Crawler crawler = new Crawler("http://www.gramota.ru/",3 ,10);   // Максимальная глубина = 2, количество потоков = 10
         crawler.run();
 
         Runtime.getRuntime().addShutdownHook(new Thread(()->printResult()));
